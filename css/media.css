@@ -1,0 +1,319 @@
+/* Desktop */
+@media (max-width:1440px){}
+@media (max-width:1320px){}
+@media (max-width:1290px){}
+@media (max-width:1170px){}
+/* container */
+@media (max-width:1140px){}
+@media (max-width:1024px){
+   .header_container{
+       display: flex;
+       justify-content: space-around;
+   }
+   .header_title{
+       width: 45%;
+       margin-top: 100px;
+   }
+    .header_image{
+        width: 45%;
+    }
+    .service_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .service_card{       
+        overflow-x: auto;
+        scroll-snap-type:x mandatory ;
+        flex-wrap: nowrap;
+        column-gap: 35px;
+        padding-bottom: 20px;
+    }
+    .service_cards{
+        flex-shrink: 0;
+        scroll-snap-align: center;
+    }  
+    .projects{
+        display: flex;
+        justify-content: space-around;
+    }
+    .project_img{
+        width: 38%;
+    }
+    .mot_card{
+        overflow-x: auto;
+        scroll-snap-type: mandatory;
+        padding-bottom: 50px;
+        column-gap: 70px;
+       
+    }
+    .mot_cards{
+        flex-shrink: 0;
+        scroll-snap-align: center;
+    }
+    .subscribe_box{
+        width: 950px;
+        height: 280px;
+        margin: auto;
+    }
+    .subscribe_title{
+        width: 65%;
+        margin: 35px 167px 10px;
+    }
+    
+    .addres{
+        margin: 40px 50px 10px;
+    }
+    .navbar_container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer_container{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+/* tab */
+@media (max-width:992px){
+    .service_text{
+        margin: 10px 200px;
+    }
+}
+@media (max-width:850px){
+    .nav_container{
+        margin: auto;
+    }
+   .service_text{
+       margin: 10px 120px;
+   }
+    .project_title{
+        width: 60%;
+    }
+    .mot_card{
+        display: flex;
+        column-gap: 18px;
+    }
+    .subscribe_box{
+        width: 790px;
+        height: 250px;
+    }
+    .subscribe_title{
+        width: 65%;
+        font-size: 33px;
+        margin: 20px 147px 0;
+    }
+    .subscribe_text{
+        width: 65%;
+        margin: auto;
+        text-align: center;
+    }
+    .addres{
+        width: 690px;
+        height: 60px;
+        margin: auto;
+    }
+    .addres_button{
+        height: 50px;
+        margin: 5px 5px 5px;
+    }
+
+}
+@media (max-width:768px){
+    .nav_container{
+        justify-content: space-around;
+    }
+    .nav_list{
+        display: flex;
+        column-gap: 2px;
+    }
+    .service_text{
+        margin: 10px 70px;
+    }
+    .header_title{
+        width: 50%;
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+    .header_h1{
+        font-size: 48px;
+    }
+    .header_text{
+        width: 320px;
+        text-align: justify;
+    }
+    .button_btn{
+        margin-left: 35px;
+    }
+  
+    .project_title{
+        width: 65%;
+    }
+    .project_h3{
+        width: 450px;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 35px;
+        margin-left: 10px;
+    }
+    .project_text{
+        width: 420px;
+        margin-left: 20px;
+    }
+    .project_btn{
+        margin-left: 15px;
+    }
+    .subscribe_box{
+        width: 720px;
+    }
+    .nav_container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navbar_zone{
+        width: 25%;
+    }
+    .navbar_zone-title{
+        font-size: 16px;
+    }
+    .navbar_link{
+        font-size: 12px;
+    }
+    .footer_title{
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+}
+/* mobile */
+@media (max-width:736px){
+    .nav_logo{
+        justify-content: space-between;
+    }
+    .nav_list{
+        display: flex;
+    }
+    
+    .nav_item{
+        width: 65px;
+    }
+    .header_title{
+        margin-top: 25px;
+    }
+    .header_h1{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .header_text{
+        width: 320px;
+        margin-top: 15px;
+        line-height: 22px;
+    }
+    .header_button{
+        width: 95px;
+        height: 45px;
+    }
+    .mot_card{
+        display: flex;
+        column-gap: 120px;
+    }
+    .subscribe_box{
+        width: 650px;
+    }
+    .subscribe_title{
+        width: 580px;
+        margin: 0 90px 5px;
+    }
+    .project_h3{
+        width: 360px;
+    }
+    .project_text{
+        width: 200px;
+        text-align: start;
+    }
+    .addres{
+        width: 620px;
+    }
+    
+    .service_text{
+        margin: 10px 40px;
+    }
+
+}
+@media (max-width:734px){
+    .projects{
+        justify-content: space-around;
+    }
+    .project_title{
+        width: 45%;
+
+    }
+    .project_h3{
+        width: 320px;
+        text-align: justify;
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .project_text{
+        width: 305px;
+        text-align: justify;
+    }
+    .navbar_zone-link{
+        font-size: 15px;
+    }
+    .footer_container{
+        justify-content: space-around;
+    }
+}
+@media (max-width:684px){
+   .navbar_zone-link{
+       font-size: 14px;
+   }
+   .navbar_link{
+       font-size: 9px;
+   }
+}
+@media (max-width:667px){
+
+}
+/* mobile 576 */
+@media (max-width:576px){
+    .header_h1{
+        font-size: 35px;
+    }
+    .header_text{
+        width: 300px;
+        text-align: start;
+    }
+    .service_text{
+        margin: 10px 30px;
+    }
+    .subscribe_box{
+        width: 540px;
+        height: 200px;
+    }
+    .subscribe_title{
+        font-size: 28px;
+    }
+    .subscribe_text{
+        margin-top: 10px;
+        font-size: 14px;
+        text-align: justify;
+        line-height: 22px;
+    }
+    .addres{
+        width: 520px;
+    }
+    .addres_input{
+        margin: 0 20px;
+        font-size: 16px;
+    }
+    .addres_btn-link{
+        font-size: 16px;
+    }
+
+}
+@media (max-width:480px){}
+@media (max-width:412px){}
+@media (max-width:375px){}
+@media (max-width:360px){}
+@media (max-width:320px){}
